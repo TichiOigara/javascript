@@ -10,6 +10,8 @@ function  pigLatin(){
     }else
     {
     var charIndex ;
+		//used a for-loop to check if every character was a vowel
+		// saved the index position where a vowel was encountered
     for (var i =0; i<word.length;i++){
 
     	if(word.charAt(i)=="a"|| word.charAt(i)=="e" || word.charAt(i)=="i" || word.charAt(i)=="o" || word.charAt(i)=="u"){
